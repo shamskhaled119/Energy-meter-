@@ -6,7 +6,7 @@ This project measures DC voltage and DC current, then calculates the consumed po
 
 > From voltage and current readings to energy tracking — simple, useful, and practical. 🔥
 
-## Project Preview 📸
+
 
 ## Project Preview 📸
 
