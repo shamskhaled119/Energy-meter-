@@ -13,15 +13,14 @@ the circuit measures, the Arduino calculates, and the display/output shows the r
 ## Hardware Design Photos 📸
 
 ### Schematic Design
+<img src="Screenshot%202026-06-09%20063438.png" alt="DC Energy Meter Schematic Design" width="700">
 
-<img src="Screenshot%202026-06-09%20063718.png" alt="DC Energy Meter PCB 3D View" width="700">
 ### PCB Routing
 <img src="Screenshot%202026-06-09%20063449.png" alt="DC Energy Meter PCB Routing" width="700">
 
 ### PCB 3D View
 
-<img src="Screenshot%202026-06-09%20063438.png" alt="DC Energy Meter Schematic Design" width="700">
-
+<img src="Screenshot%202026-06-09%20063718.png" alt="DC Energy Meter PCB 3D View" width="700">
 ## Hardware Components Used
 
 - Arduino Nano  
