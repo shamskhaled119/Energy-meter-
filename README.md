@@ -8,7 +8,7 @@ This project measures DC voltage and DC current, then calculates the consumed po
 
 ## Project Preview 📸
 
-<img src="energy-meter.jpg" alt="DC Energy Meter Project" width="700">
+
 
 ## What It Does
 
