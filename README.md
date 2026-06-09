@@ -1,48 +1,52 @@
-DC Energy Meter ⚡🔋
+# DC Energy Meter 🔋⚡
 
-A simple and practical DC Energy Meter designed to measure and monitor important electrical parameters in DC circuits.
+A compact DC Energy Meter designed to measure and track power consumption in DC circuits.
 
-This project measures DC voltage and DC current, then uses these readings to calculate power and energy consumption over time.
+This project measures DC voltage and DC current, then calculates the consumed power and energy in real time.
 
-In simple words:
-the meter reads voltage and current, calculates power, and tracks how much energy is consumed. 🔥
+> From voltage and current readings to energy tracking — simple, useful, and practical. 🔥
 
-Project Photos 📸
+## Project Preview 📸
 
-DC Energy Meter Setup
+<img src="energy-meter.jpg" alt="DC Energy Meter Project" width="700">
 
-<img src="photo_2026-06-09_06-44-27.jpg" alt="DC Energy Meter Setup" width="700">Features
+## What It Does
 
-- DC voltage measurement
-- DC current measurement
-- Power calculation
-- Energy calculation
-- Real-time monitoring
-- Simple display of measured values
-- Useful for testing DC loads, batteries, and small power systems
+- Measures DC voltage
+- Measures DC current
+- Calculates power in watts
+- Tracks consumed energy over time
+- Displays the readings clearly
+- Helps analyze DC loads and small power systems
 
-What It Measures
+## Measurements
 
-- Voltage (V)
-  Measures the DC voltage supplied to the load.
+| Parameter | Unit | Description |
+|---|---|---|
+| Voltage | V | DC voltage supplied to the load |
+| Current | A | Current consumed by the load |
+| Power | W | Instant power calculated from voltage and current |
+| Energy | Wh | Total energy consumed over time |
 
-- Current (A)
-  Measures the current consumed by the load.
+## How It Works
 
-- Power (W)
-  Calculated using voltage and current readings.
+The meter reads the voltage and current values from the DC circuit.  
+Then, the microcontroller processes these readings to calculate power and energy consumption.
 
-- Energy (Wh)
-  Calculated over time to estimate the total energy consumed by the load.
+The basic idea is simple:
 
-How It Works
+Voltage + Current → Power → Energy Consumption
 
-The system reads the DC voltage and current from the circuit, then processes these values using the microcontroller.
+## Applications
 
-After that, the power is calculated from the measured voltage and current, while the energy is calculated by tracking power consumption over time.
+This project can be used for:
 
-Project Purpose
+- Testing DC loads
+- Monitoring battery-powered systems
+- Measuring small solar or power supply outputs
+- Educational electrical experiments
+- Understanding real-time power consumption
 
-The main purpose of this project is to build a low-cost and easy-to-use DC energy monitoring system that can help in understanding power consumption in DC circuits.
+## Project Goal
 
-It can be used for testing DC loads, small battery systems, power supplies, and educational electrical experiments.
+The goal of this project is to build a simple and low-cost DC energy monitoring system that can show how much power and energy a DC load consumes during operation.
